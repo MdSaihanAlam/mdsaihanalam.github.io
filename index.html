@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Md Saihan Alam | AI/ML Researcher</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="google-site-verification" content="0sMgbpWSWXBsiZHdC9ooE8DaKllLX80T0scOwtm6z9I">
 <link rel="canonical" href="https://mdsaihanalam.github.io/">
 <link rel="icon" href="favicon.ico" sizes="48x48">
@@ -17,14 +16,19 @@
 <meta property="og:site_name" content="Md Saihan Alam">
 <meta property="og:url" content="https://mdsaihanalam.github.io/">
 <meta property="og:title" content="Md Saihan Alam | AI/ML Researcher">
-<meta property="og:description" content="Computer vision for papaya and guava disease recognition, the BDPapayaDisease open dataset, and TinyML wearables such as the NanoSense fall detector.">
+<meta property="og:description" content="Md Saihan Alam is an AI/ML researcher at Dhaka International University working on computer vision for crop disease, open datasets and TinyML wearables.">
 <meta property="og:image" content="https://mdsaihanalam.github.io/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Md Saihan Alam, AI/ML researcher: 97.75% papaya leaf accuracy, 2.9 ms fall detection on ESP32">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Md Saihan Alam","jobTitle":"AI/ML Researcher","url":"https://mdsaihanalam.github.io/","image":"https://mdsaihanalam.github.io/profile.jpg","alumniOf":{"@type":"CollegeOrUniversity","name":"Dhaka International University"},"sameAs":["https://github.com/MdSaihanAlam","https://www.linkedin.com/in/md-saihan-alam/"]}</script>
+<meta name="twitter:title" content="Md Saihan Alam | AI/ML Researcher">
+<meta name="twitter:description" content="Md Saihan Alam is an AI/ML researcher at Dhaka International University working on computer vision for crop disease, open datasets and TinyML wearables.">
+<meta name="twitter:image" content="https://mdsaihanalam.github.io/og-image.png">
+<meta name="twitter:image:alt" content="Md Saihan Alam, AI/ML researcher: 97.75% papaya leaf accuracy, 2.9 ms fall detection on ESP32">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Md Saihan Alam","jobTitle":"AI/ML Researcher","url":"https://mdsaihanalam.github.io/","image":"https://mdsaihanalam.github.io/profile.jpg","alumniOf":{"@type":"CollegeOrUniversity","name":"Dhaka International University"},"sameAs":["https://github.com/MdSaihanAlam","https://www.linkedin.com/in/md-saihan-alam/","https://codeforces.com/profile/Saihan_Alam","https://leetcode.com/u/Saihan_Alam/","https://www.hackerrank.com/profile/diusaihancse"],"alternateName":["Saihan Alam","Md. Saihan Alam","MdSaihanAlam"],"description":"Md Saihan Alam is an AI/ML researcher at Dhaka International University working on computer vision for crop disease, open datasets and TinyML wearables.","email":"mailto:saihan.alam.bd@gmail.com","affiliation":{"@type":"CollegeOrUniversity","name":"Dhaka International University"},"nationality":{"@type":"Country","name":"Bangladesh"},"address":{"@type":"PostalAddress","addressLocality":"Dhaka","addressCountry":"BD"},"knowsAbout":["Machine learning","Deep learning","Computer vision","TinyML","Embedded systems","Plant disease detection","PyTorch","ESP32","Full-stack web development"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Md Saihan Alam","alternateName":"Md Saihan Alam Portfolio","url":"https://mdsaihanalam.github.io/"}</script>
-<meta name="description" content="Md Saihan Alam is an AI/ML researcher working on computer vision for papaya and guava disease recognition, open agricultural datasets, and TinyML wearables such as the NanoSense fall detector.">
+<meta name="description" content="Md Saihan Alam is an AI/ML researcher at Dhaka International University working on computer vision for crop disease, open datasets and TinyML wearables.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -140,7 +144,8 @@ header.top.open .menu-btn .close-icon { display: block; }
 .hero { padding-block: clamp(48px, 8vw, 96px) clamp(48px, 7vw, 80px); }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 40px; align-items: end; }
 .hero h1 { font-size: var(--step-4); font-weight: 800; line-height: 1; letter-spacing: -0.035em; }
-.hero h1 em { font-style: normal; color: var(--accent); }
+.hero .tagline { font-family: var(--display); font-size: clamp(1.4rem, 3.2vw, 2.1rem); font-weight: 600; line-height: 1.15; letter-spacing: -0.02em; margin-top: 14px; max-width: 30ch; text-wrap: balance; }
+.hero .tagline em { font-style: normal; color: var(--accent); }
 .hero .lede { font-size: var(--step-1); color: var(--muted); max-width: 46ch; margin-top: 24px; line-height: 1.5; }
 .hero .lede strong { color: var(--fg); font-weight: 500; }
 .portrait {
@@ -394,8 +399,9 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <div class="hero-grid">
         <div>
           <p class="label rise">AI / ML researcher · Computer vision · TinyML</p>
-          <h1 class="rise d1" style="margin-top:18px">I train models for crops and wearables, then <em>make them run where people are.</em></h1>
-          <p class="lede rise d2">I'm <strong>Md Saihan Alam</strong>, a final-year CSE researcher at Dhaka International University. My work covers plant-disease recognition for papaya and guava, an open papaya leaf dataset, and a fall detector that runs on a 240 MHz microcontroller.</p>
+          <h1 class="rise d1" style="margin-top:18px">Md Saihan Alam</h1>
+          <p class="tagline rise d1">I train models for crops and wearables, then <em>make them run where people are.</em></p>
+          <p class="lede rise d2">A <strong>final-year CSE researcher at Dhaka International University</strong>. My work covers plant-disease recognition for papaya and guava, an open papaya leaf dataset, and a fall detector that runs on a 240 MHz microcontroller.</p>
         </div>
         <div class="portrait rise d1"><img src="profile.jpg" alt="Md Saihan Alam, AI/ML researcher at Dhaka International University" width="168" height="168"></div>
       </div>

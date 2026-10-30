@@ -26,7 +26,7 @@
 <meta name="twitter:description" content="Md Saihan Alam is an AI/ML researcher at Dhaka International University working on computer vision for crop disease, open datasets and TinyML wearables.">
 <meta name="twitter:image" content="https://mdsaihanalam.github.io/og-image.png">
 <meta name="twitter:image:alt" content="Md Saihan Alam, AI/ML researcher: 97.75% papaya leaf accuracy, 2.9 ms fall detection on ESP32">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Md Saihan Alam","jobTitle":"AI/ML Researcher","url":"https://mdsaihanalam.github.io/","image":"https://mdsaihanalam.github.io/profile.jpg","alumniOf":{"@type":"CollegeOrUniversity","name":"Dhaka International University"},"sameAs":["https://github.com/MdSaihanAlam","https://www.linkedin.com/in/md-saihan-alam/","https://codeforces.com/profile/Saihan_Alam","https://leetcode.com/u/Saihan_Alam/","https://www.hackerrank.com/profile/diusaihancse"],"alternateName":["Saihan Alam","Md. Saihan Alam","MdSaihanAlam"],"description":"Md Saihan Alam is an AI/ML researcher at Dhaka International University working on computer vision for crop disease, open datasets and TinyML wearables.","email":"mailto:saihan.alam.bd@gmail.com","affiliation":{"@type":"CollegeOrUniversity","name":"Dhaka International University"},"nationality":{"@type":"Country","name":"Bangladesh"},"address":{"@type":"PostalAddress","addressLocality":"Dhaka","addressCountry":"BD"},"knowsAbout":["Machine learning","Deep learning","Computer vision","TinyML","Embedded systems","Plant disease detection","PyTorch","ESP32","Full-stack web development"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Md Saihan Alam","jobTitle":"AI/ML Researcher","url":"https://mdsaihanalam.github.io/","image":"https://mdsaihanalam.github.io/profile.jpg","alumniOf":{"@type":"CollegeOrUniversity","name":"Dhaka International University"},"sameAs":["https://github.com/MdSaihanAlam","https://www.linkedin.com/in/md-saihan-alam/","https://orcid.org/0009-0000-6923-1702","https://codeforces.com/profile/Saihan_Alam","https://leetcode.com/u/Saihan_Alam/","https://www.hackerrank.com/profile/diusaihancse"],"alternateName":["Saihan Alam","Md. Saihan Alam","MdSaihanAlam"],"description":"Md Saihan Alam is an AI/ML researcher at Dhaka International University working on computer vision for crop disease, open datasets and TinyML wearables.","email":"mailto:saihan.alam.bd@gmail.com","affiliation":{"@type":"CollegeOrUniversity","name":"Dhaka International University"},"nationality":{"@type":"Country","name":"Bangladesh"},"address":{"@type":"PostalAddress","addressLocality":"Dhaka","addressCountry":"BD"},"knowsAbout":["Machine learning","Deep learning","Computer vision","TinyML","Embedded systems","Plant disease detection","PyTorch","ESP32","Full-stack web development"],"identifier":{"@type":"PropertyValue","propertyID":"ORCID","value":"0009-0000-6923-1702"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Md Saihan Alam","alternateName":"Md Saihan Alam Portfolio","url":"https://mdsaihanalam.github.io/"}</script>
 <meta name="description" content="Md Saihan Alam is an AI/ML researcher at Dhaka International University working on computer vision for crop disease, open datasets and TinyML wearables.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,14 +53,10 @@
   --step-4: clamp(2.5rem, 7vw, 5rem);
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
+  :root {
     --bg: #0b1117; --surface: #121a22; --fg: #e5ebf1; --muted: #93a1ae; --line: #24303b;
     --accent: #ff8a3d; --ok: #4fbf9f; --grid: rgba(229, 235, 241, .06); color-scheme: dark;
   }
-}
-:root[data-theme="dark"] {
-  --bg: #0b1117; --surface: #121a22; --fg: #e5ebf1; --muted: #93a1ae; --line: #24303b;
-  --accent: #ff8a3d; --ok: #4fbf9f; --grid: rgba(229, 235, 241, .06); color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -382,9 +378,6 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </nav>
-    <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch colour theme">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
-    </button>
     <button class="menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
       <svg class="open-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
@@ -417,6 +410,9 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <a class="btn" href="https://www.linkedin.com/in/md-saihan-alam/" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.640-1.850 3.37-1.850 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
           LinkedIn</a>
+        <a class="btn" href="https://orcid.org/0009-0000-6923-1702" target="_blank" rel="noopener me">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#A6CE39"/><text x="12" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#fff">iD</text></svg>
+          ORCID</a>
         <a class="btn" href="#contact">Email</a>
       </div>
 
@@ -667,6 +663,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <div>
           <h2>Papers, data and reports</h2>
           <p>Status is shown honestly: one published dataset, two papers being prepared for submission, and a technical report.</p>
+          <p class="mono">ORCID iD: <a href="https://orcid.org/0009-0000-6923-1702" target="_blank" rel="noopener me">0009-0000-6923-1702</a></p>
         </div>
       </div>
       <ul class="pubs">
@@ -814,6 +811,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <button class="btn cv-open" type="button">View CV</button>
         <a class="btn" href="https://github.com/MdSaihanAlam" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="https://www.linkedin.com/in/md-saihan-alam/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://orcid.org/0009-0000-6923-1702" target="_blank" rel="noopener me"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#A6CE39"/><text x="12" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#fff">iD</text></svg> ORCID</a>
       </div>
     </div>
   </section>
@@ -841,16 +839,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 
 <script>
 (function () {
-  // Theme toggle: switches to the opposite of what is showing now.
   var root = document.documentElement;
-  try { var saved = localStorage.getItem("theme"); if (saved) root.setAttribute("data-theme", saved); } catch (e) {}
-  document.getElementById("theme-btn").addEventListener("click", function () {
-    var dark = getComputedStyle(root).colorScheme.indexOf("dark") !== -1;
-    var next = dark ? "light" : "dark";
-    root.setAttribute("data-theme", next);
-    try { localStorage.setItem("theme", next); } catch (e) {}
-    drawStatic();
-  });
 
   // Mobile menu: the nav links collapse behind this button under 880px.
   var header = document.querySelector("header.top");
